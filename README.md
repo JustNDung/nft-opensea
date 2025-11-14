@@ -11,7 +11,7 @@ Dự án NFT Marketplace sử dụng Next.js, Hardhat, và Tailwind CSS v4.
 
 1. **Cài đặt dependencies:**
    ```bash
-   npm install --legacy-peer-deps
+   npm install
    ```
 
 2. **Chạy development server:**
