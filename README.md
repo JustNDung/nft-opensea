@@ -1,24 +1,47 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# NFT Marketplace with OpenSea
 
-## Getting Started
+Dự án NFT Marketplace sử dụng Next.js, Hardhat, và Tailwind CSS v4.
 
-First, run the development server:
+## Yêu cầu hệ thống
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Node.js >= 18
+- npm hoặc yarn
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Cài đặt và khởi tạo
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. **Cài đặt dependencies:**
+   ```bash
+   npm install --legacy-peer-deps
+   ```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+2. **Chạy development server:**
+   ```bash
+   npm run dev
+   ```
+
+3. Mở [http://localhost:3000](http://localhost:3000) để xem kết quả.
+
+## Công nghệ sử dụng
+
+- **Frontend:** Next.js 16, React 19, Tailwind CSS v4
+- **Smart Contracts:** Hardhat, OpenZeppelin Contracts, Ethers.js v6
+- **IPFS:** ipfs-http-client
+- **Wallet:** Web3Modal
+
+## Lệnh hữu ích
+
+- `npm run dev` - Chạy development server
+- `npm run build` - Build production
+- `npm run start` - Chạy production server
+- `npm run lint` - Chạy ESLint
+
+## Cấu hình Tailwind CSS
+
+Dự án sử dụng Tailwind CSS v4. Cấu hình trong `app/globals.css`:
+- Import Tailwind
+- Theme tùy chỉnh với `@theme inline`
+
+Không cần file `tailwind.config.js` cho setup cơ bản.
 
 ## Learn More
 
